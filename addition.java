@@ -17,7 +17,7 @@ class sum {
 class addition extends sum {
     public static void main(String[] args) {
         addition addObj = new addition();
-        addObj.add();  // Call the add method to initialize a and b
+        addObj.add();  
         int result = addObj.a + addObj.b;
         System.out.println("The sum is: " + result);
     }
